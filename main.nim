@@ -2,14 +2,15 @@ import std/random
 
 randomize()
 
-const numbers = 48 .. 57
+const
+    numbers = 48 .. 57
 
-var
-    password: string
-    n: int
 
-for j in 1 .. 4:
-    n = rand(numbers)
-    password.add(char(n))
+proc generate_password(): string =
+    var n: int
+    for j in 1 .. 4:
+        n = rand(numbers)
+        result.add(char(n))
 
-echo password
+
+echo generate_password()
