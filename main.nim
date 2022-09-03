@@ -7,10 +7,14 @@ const
 
 
 proc generate_password(): string =
-    var n: int
+    var
+        n: int
     for j in 1 .. 4:
         n = rand(numbers)
         result.add(char(n))
 
 
-echo generate_password()
+proc main =
+    echo generate_password()
+
+main()
