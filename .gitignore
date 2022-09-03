@@ -4,3 +4,6 @@ htmldocs/
 
 # Jetbrains .idea folder
 .idea/
+
+# pswd executable
+pswd
