@@ -1,19 +1,9 @@
-import os, std/random, std/strutils
+import os
+from std/strutils import parseInt
 
-randomize()
+import passwd
 
-const
-    numbers = 48 .. 57
-    PASSWD_DEFAULT_LENGTH = 6
-
-
-proc generate_password(length: int): string =
-    var
-        n: int
-    for j in 1 .. length:
-        n = rand(numbers)
-        result.add(char(n))
-
+const PASSWD_DEFAULT_LENGTH = 6
 
 proc main =
     var length: int

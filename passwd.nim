@@ -1,0 +1,11 @@
+import std/random
+
+randomize()
+
+const numbers = 48 .. 57
+
+proc generate_password *(length: int): string =
+    var n: int
+    for j in 1 .. length:
+        n = rand(numbers)
+        result.add(char(n))
