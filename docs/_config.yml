@@ -11,17 +11,20 @@ sass:
   sass_dir: ./
   style: compressed
 
-theme: jekyll-theme-primer
+theme: pages-themes/cayman@v0.2.0
+
+remote_theme: pages-themes/cayman@v0.2.0
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-remote-theme
 
 title: "👋 Hello, GitHub"
 description: "@natfriedman"
 
 twitter:
-  username: natfriedman
+  username: ajr_almeidan
 
 author:
-  name: Nat Friedman
-  twitter: natfriedman
+  name: A Junior
+  twitter: iamajr
