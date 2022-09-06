@@ -2,26 +2,122 @@
 layout: default
 ---
 
-# 👋 Hello, GitHub
+Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-The Octocat is out of the bag: GitHub is joining Microsoft and I will become the new CEO when the deal closes later this year. I’m confident that this change will be great for GitHub and developers around the world, and I wanted to take the opportunity to introduce myself.
+[Link to another page](./another-page.html).
 
-Who am I? My name is Nat and I’ve been a developer since I was six. I’ve been active in open source since the 90s when I discovered Linux.
+There should be whitespace between paragraphs.
 
-I was blown away to discover a free operating system that came with an editor, compiler, and debugger---all of the tools you need to be a developer, and all of the source code! It was an incredible opportunity for a teenager in a small town in Virginia to learn from the best developers in the world. I spent 15 years working with Linux and founded a couple of open source companies. My first commit to GitHub was in 2009, when GitHub was a year old.
+There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-Today I live in San Francisco with my wife and daughter. Two years ago I joined Microsoft when it acquired Xamarin, a developer-focused company I started with Miguel de Icaza. I was delighted to see that Microsoft was broadening its horizons as a developer-centric company by rallying behind technologies like Linux, Git, node, and Kubernetes. Microsoft had become a massive contributor to open source, and was remodeling its engineering culture after the example of open source projects.
+# Header 1
 
-I believe Microsoft is the ideal partner for GitHub, and as a developer who loves GitHub, leading its next chapter will be an incredibly exciting opportunity and responsibility. Just as open source helped launch my career, millions of people today depend on GitHub to help them learn, grow, and build amazing things. I'm determined to give that opportunity to millions more around the world.
+This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
-At the same time, I understand that there is some healthy skepticism in the community, so I wanted to be absolutely clear about two things:
+## Header 2
 
-* **GitHub will operate independently as a community, platform, and business.** This means that GitHub will retain its developer-first values, distinctive spirit, and open extensibility. We will always support developers in their choice of any language, license, tool, platform, or cloud.
+> This is a blockquote following a header.
+>
+> When something is important enough, you do it even if the odds are not in your favor.
 
-* **GitHub will retain its product philosophy.** We love GitHub because of the deep care and thoughtfulness that goes into every facet of the developer’s experience. I understand and respect this, and know that we will continue to build tasteful, snappy, polished tools that developers love.
+### Header 3
 
-I’m not asking for your trust, but I’m committed to earning it. I can’t wait to help make the GitHub platform and community that’s special to all of us even greater.
+```js
+// Javascript code with syntax highlighting.
+var fun = function lang(l) {
+  dateformat.i18n = require('./lang/' + l)
+  return true;
+}
+```
 
--- [@natfriedman](https://github.com/natfriedman)
+```ruby
+# Ruby code with syntax highlighting
+GitHubPages::Dependencies.gems.each do |gem, version|
+  s.add_dependency(gem, "= #{version}")
+end
+```
 
-PS: I’ll be doing an AMA on Reddit in the next few days, I hope to see you there!
+#### Header 4
+
+*   This is an unordered list following a header.
+*   This is an unordered list following a header.
+*   This is an unordered list following a header.
+
+##### Header 5
+
+1.  This is an ordered list following a header.
+2.  This is an ordered list following a header.
+3.  This is an ordered list following a header.
+
+###### Header 6
+
+| head1        | head two          | three |
+|:-------------|:------------------|:------|
+| ok           | good swedish fish | nice  |
+| out of stock | good and plenty   | nice  |
+| ok           | good `oreos`      | hmm   |
+| ok           | good `zoute` drop | yumm  |
+
+### There's a horizontal rule below this.
+
+* * *
+
+### Here is an unordered list:
+
+*   Item foo
+*   Item bar
+*   Item baz
+*   Item zip
+
+### And an ordered list:
+
+1.  Item one
+1.  Item two
+1.  Item three
+1.  Item four
+
+### And a nested list:
+
+- level 1 item
+  - level 2 item
+  - level 2 item
+    - level 3 item
+    - level 3 item
+- level 1 item
+  - level 2 item
+  - level 2 item
+  - level 2 item
+- level 1 item
+  - level 2 item
+  - level 2 item
+- level 1 item
+
+### Small image
+
+![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
+
+### Large image
+
+![Branching](https://guides.github.com/activities/hello-world/branching.png)
+
+
+### Definition lists can be used with HTML syntax.
+
+<dl>
+<dt>Name</dt>
+<dd>Godzilla</dd>
+<dt>Born</dt>
+<dd>1952</dd>
+<dt>Birthplace</dt>
+<dd>Japan</dd>
+<dt>Color</dt>
+<dd>Green</dd>
+</dl>
+
+```
+Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
+```
+
+```
+The final element.
+```
