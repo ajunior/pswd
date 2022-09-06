@@ -11,16 +11,16 @@ sass:
   sass_dir: ./
   style: compressed
 
-# theme: pages-themes/cayman@v0.2.0
+theme: cayman
 
-remote_theme: pages-themes/cayman@v0.2.0
+# remote_theme: pages-themes/cayman@v0.2.0
 
 plugins:
   - jekyll-seo-tag
   - jekyll-remote-theme
 
-title: "👋 Hello, GitHub"
-description: "@natfriedman"
+title: ":closed_lock_with_key: pswd"
+description: "a flexible way to generate secure password"
 
 twitter:
   username: ajr_almeidan
